@@ -1,0 +1,91 @@
+*{margin: 0;
+padding: 0;}
+
+.container{
+    width: 90vw;
+ min-height: 84vh;
+    margin: 60px auto;
+    /* background-color: white; */
+    position: relative;
+    background: rgba(255,255,255, 0.5);
+    overflow: hidden;
+}
+
+body{
+   background: url("https://images.healthshots.com/healthshots/en/uploads/2021/08/12183952/organ-donation-2.jpg");
+background-repeat: no-repeat;
+}
+.row1{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 20px;
+}
+.roww1{
+    display: flex;
+    flex-direction: column;
+}
+.roww1  input{
+    width: 245px;
+    height: 25px;
+    padding: 5px 12px;
+    font-size: 15px;
+    /* position: absolute; */
+    /* background: rgba(255,255,255, 0.2); */
+    outline: none;
+    margin-right:  180px;
+    
+    
+}
+.content{
+    position: absolute;
+    top: 52px;
+    /* left: 40px;  */
+    transition: 1s;
+}
+.content3{
+    position: absolute;
+    /* transform: translateX(-100%); */
+    /* top: 100px; */
+    left: 1220px;
+    transition: 1s;
+}
+.roww1 label{
+    margin: 8px 0;
+}
+h3{
+margin-left: 20px;
+margin-right: 20px;
+margin-top: 10px;
+}
+h2{
+    margin-left: 20px;
+margin-right: 20px;
+   padding: 15px 0;
+   border-bottom: 2px solid black ;
+   width: 50px;
+}
+.content2{
+    position: absolute;
+    left: 1220px;
+    transition: 1s;
+}
+.next1{
+    padding: 2vh 4vw;
+    border: none;
+    border-radius: 7px;
+    background-color: #e7a598;
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 15px 15px;
+}
+.buttu{
+    padding: 2vh 4vw;
+    border: none;
+    border-radius: 7px;
+    background-color: #e7a598;
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 15px 15px;  
+}
